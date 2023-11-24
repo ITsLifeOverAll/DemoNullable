@@ -26,7 +26,7 @@ using DemoNullableReferenceType;
         Console.WriteLine("b does not have a value");
     }
     b = null;
-    Console.WriteLine($"b is null, then b's value is {b.Value}");
+    //Console.WriteLine($"b is null, then b's value is {b.Value}");
 
     // actually. I'd like to use 'is' instead of 'hasValue' and 'Value'
 }
